@@ -138,7 +138,7 @@ The HR data analysis project using Power BI has provided valuable insights into 
 
 ## [Dashboard](#dashboard)
 
-Here is the PDF Version of this dashboard [HERE](#https://github.com/binoy-patra/HR-Vision-360-Dashboard/blob/main/HR%20Analysis%20Dashboard.pdf)
+Here is the PDF version of this dashboard. [Here the link](https://github.com/binoy-patra/HR-Vision-360-Dashboard/blob/main/HR%20Analysis%20Dashboard.pdf).
 
 
 ## Contact Information
