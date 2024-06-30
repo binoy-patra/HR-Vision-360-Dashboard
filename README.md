@@ -24,6 +24,8 @@
     11. [Pending Actions (Promotions or Retrenchments)](#pending-actions-promotions-or-retrenchments)
     12. [Attrition Trends](#attrition-trends)
 7. [Conclusion](#conclusion)
+8. [Dashboard](#dashboard)
+9. [Contact Information](#contact-information)
 
 # Report
 
@@ -133,6 +135,11 @@ The following insights were derived from the data analysis:
 
 ## [Conclusion](#conclusion)
 The HR data analysis project using Power BI has provided valuable insights into the organization's workforce. By leveraging Power BI's capabilities, we were able to create an interactive dashboard that highlights key metrics and trends. These insights will aid HR managers and executives in making informed decisions to enhance employee management and organizational growth.
+
+## [Dashboard](#dashboard)
+
+Here is the PDF Version of this dashboard [HERE](#https://github.com/binoy-patra/HR-Vision-360-Dashboard/blob/main/HR%20Analysis%20Dashboard.pdf)
+
 
 ## Contact Information
 - **LinkedIn:** [Binoy Patra](https://www.linkedin.com/in/binoy-patra-b9277b1b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
