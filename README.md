@@ -40,7 +40,10 @@ This report presents an in-depth analysis of an organization's HR data using Pow
    - To provide detailed salary analysis, uncovering trends and disparities across different factors such as department and job level.
    
 3. **Action**:
-   - To highlight actionable HR insights, including pending promotions, retrenchments, and attrition rates, to support strategic HR planning.
+   - To highlight actionable HR insights, including pending promotions, retrenchments to support strategic HR planning.
+
+4. **Attrition**:
+   - To highlight wich factors causes attrition.
 
 ## [Data Overview](#data-overview)
 The dataset used in this analysis consists of various attributes related to employees, including demographic information, performance ratings, job satisfaction, compensation details, and departmental distribution. The dataset includes information such as employee ID, age, gender, department, job level, education, marital status, distance from office, job satisfaction, work-life balance, relationship satisfaction, environmental satisfaction, salary, job involvement, and attrition status.
@@ -131,14 +134,15 @@ The following insights were derived from the data analysis:
 - **Human Resources**: 2 promotions, 7 retrenchments
 
 ### [Attrition Trends](#attrition-trends)
-- Analyzed by years at company and gender
+- Analyzed by duifferent factors such as Salary, Age, Experience, Gender, Depertments.
 
 ## [Conclusion](#conclusion)
 The HR data analysis project using Power BI has provided valuable insights into the organization's workforce. By leveraging Power BI's capabilities, we were able to create an interactive dashboard that highlights key metrics and trends. These insights will aid HR managers and executives in making informed decisions to enhance employee management and organizational growth.
 
 ## [Dashboard](#dashboard)
 
-Here is the PDF version of this dashboard. [Here the link](https://github.com/binoy-patra/HR-Vision-360-Dashboard/blob/main/HR%20Analysis%20Dashboard.pdf).
+Here is the PDF version of this dashboard. [Here the link](https://github.com/binoy-patra/HR-Vision-360-Dashboard/blob/main/HR%20Analysis%20Dashboard.pdf). 
+Here is the Interactive Dashboard : [HR Vision 360 Dashboard](https://project.novypro.com/7WII2E)
 
 
 ## Contact Information
