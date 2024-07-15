@@ -1,152 +1,63 @@
-# HR-Vision-360-Dashboard 
+# HR Vision 360 Analysis
 
-# Table of Contents
-1. [Introduction](#introduction)
-2. [Objectives](#objectives)
-3. [Data Overview](#data-overview)
-4. [Tools Used](#tools-used)
-5. [Methodology](#methodology)
-    1. [Data Collection](#data-collection)
-    2. [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
-    3. [Data Visualization](#data-visualization)
-    4. [Insight Extraction](#insight-extraction)
-6. [Insights and Findings](#insights-and-findings)
-    1. [Employee Distribution by Department](#employee-distribution-by-department)
-    2. [Employee Distribution by Job Level](#employee-distribution-by-job-level)
-    3. [Employee Distribution by Education](#employee-distribution-by-education)
-    4. [Employee Distribution by Marital Status](#employee-distribution-by-marital-status)
-    5. [Distance from Office](#distance-from-office)
-    6. [Employee Satisfaction Metrics](#employee-satisfaction-metrics)
-    7. [Average Salary by Department](#average-salary-by-department)
-    8. [Average Salary by Job Level](#average-salary-by-job-level)
-    9. [Employee Distribution by Job Involvement](#employee-distribution-by-job-involvement)
-    10. [Attrition by Department](#attrition-by-department)
-    11. [Pending Actions (Promotions or Retrenchments)](#pending-actions-promotions-or-retrenchments)
-    12. [Attrition Trends](#attrition-trends)
-7. [Conclusion](#conclusion)
-8. [Dashboard](#dashboard)
-9. [Contact Information](#contact-information)
+## Introduction
+Employee attrition is a critical concern for organizations striving to maintain workforce stability and productivity. The HR Vision 360 Dashboard project utilizes advanced data analytics techniques to delve into employee demographics, performance indicators, satisfaction metrics, compensation details, and factors influencing attrition rates within the organization. By harnessing the power of Power BI for visualization and Python for statistical analysis and predictive modeling, this project aims to provide comprehensive insights that support informed decision-making in HR management.
 
-# Report
+## Business Problem
+Employee attrition poses a significant challenge for organizations, impacting productivity, operational continuity, and overall workforce stability. Understanding the factors contributing to attrition and predicting potential turnover is crucial for HR managers and organizational leaders to implement proactive retention strategies. The HR Vision 360 Dashboard project aims to address this challenge by leveraging data analytics and predictive modeling to identify key drivers of attrition within the organization. By providing actionable insights into employee demographics, satisfaction metrics, and compensation dynamics, the project empowers stakeholders to make informed decisions aimed at improving employee engagement, satisfaction, and retention rates.
 
-## [Introduction](#introduction)
-This report presents an in-depth analysis of an organization's HR data using Power BI. The objective of the analysis is to gain insights into employee demographics, performance, satisfaction, compensation, and other key metrics to support data-driven HR decision-making. By leveraging Power BI's robust data visualization capabilities, we aim to create an interactive dashboard that provides a comprehensive overview of the workforce and highlights actionable insights.
-
-## [Objectives](#objectives)
-1. **Overview**:
-   - To present a snapshot of employee distribution based on various demographics and key attributes.
+## Objectives
+1. **Interactive Dashboard Creation**: Develop an intuitive and interactive Power BI dashboard that offers a comprehensive overview of key HR metrics and trends. This includes visualizations of employee distribution across departments, job levels, educational backgrounds, marital statuses, and distances from office locations.
    
-2. **Details**:
-   - To provide detailed salary analysis, uncovering trends and disparities across different factors such as department and job level.
+2. **Hypothesis Testing**: Utilize Python to conduct rigorous hypothesis testing across various dimensions such as gender, salary, salary hike, distance from home, tenure, and overtime. By testing these hypotheses, the project aims to uncover significant correlations between these factors and employee attrition rates.
    
-3. **Action**:
-   - To highlight actionable HR insights, including pending promotions, retrenchments to support strategic HR planning.
+3. **Predictive Modeling for Attrition Prediction**: Implement machine learning algorithms to build predictive models that forecast employee attrition based on historical data. These models are evaluated based on key performance metrics such as accuracy, precision, recall, and F1 score to determine their effectiveness in predicting attrition trends.
 
-4. **Attrition**:
-   - To highlight wich factors causes attrition.
+## Data Overview
+The dataset used in this project encompasses a rich array of attributes related to employees, including but not limited to demographic information (age, gender), performance ratings, job satisfaction indicators, compensation details (salary, salary hikes), and organizational specifics (department, job level). This comprehensive dataset forms the foundation for conducting detailed analyses and developing robust predictive models.
 
-## [Data Overview](#data-overview)
-The dataset used in this analysis consists of various attributes related to employees, including demographic information, performance ratings, job satisfaction, compensation details, and departmental distribution. The dataset includes information such as employee ID, age, gender, department, job level, education, marital status, distance from office, job satisfaction, work-life balance, relationship satisfaction, environmental satisfaction, salary, job involvement, and attrition status.
+## Tools Used
+- **Power BI**: Employed for creating visually compelling and interactive dashboards that facilitate easy exploration and understanding of complex HR data.
+- **Python**: Utilized for performing statistical analyses, conducting hypothesis tests, and building machine learning models for predictive analytics.
 
-## [Tools Used](#tools-used)
-- **Power BI**: Used for data cleaning, preprocessing, and dashboard creation.
+## Methodology
 
-## [Methodology](#methodology)
+### Interactive Dashboard Creation using Power BI
+The Power BI platform was leveraged to craft an engaging and informative dashboard that encapsulates various facets of HR data. Key visualizations include:
+- **Employee Distribution**: Charts and graphs depicting the distribution of employees across different departments, job levels, educational backgrounds, marital statuses, and proximity to office locations.
+- **Average Salary Analysis**: Visual representations of average salaries categorized by department and job level, providing insights into compensation trends within the organization.
+- **Employee Satisfaction Metrics**: Insights into job satisfaction, work-life balance, relationship satisfaction, and environmental satisfaction, essential for understanding employee well-being and engagement levels.
 
-### [Data Collection](#data-collection)
-The data was collected from various sources and imported into Power BI for analysis.
+### Hypothesis Testing using Python
+Python was instrumental in conducting hypothesis tests to validate assumptions and uncover statistically significant relationships between key variables and employee attrition:
+- **Attrition by Gender**: Statistical analysis revealed a significant association between gender and attrition rates, highlighting gender-specific challenges in workforce retention strategies.
+- **Attrition by Salary and Hike**: Findings indicated notable disparities in attrition rates across different salary brackets and in response to salary hikes, underscoring the impact of compensation on employee retention.
+- **Attrition by Distance from Home and Tenure**: Analysis identified distance from home and tenure at the company as significant predictors of attrition, suggesting that commuting distance and length of employment influence employee turnover rates.
+- **Attrition by Overtime**: Examination of overtime-related attrition patterns indicated that excessive work hours can adversely affect employee retention, emphasizing the importance of workload management and work-life balance initiatives.
 
-### [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
-The dataset was cleaned by handling missing values and outliers. Unnecessary attributes were removed to focus on relevant data points. New attributes were created using DAX (Data Analysis Expressions).
+### Predictive Modeling for Attrition Prediction
+Machine learning techniques, including Logistic Regression, K-Nearest Neighbors, Decision Trees, and Random Forests, were employed to develop predictive models for forecasting employee attrition:
+- **Logistic Regression**: Achieved an accuracy of 67.41%, with a precision of 67.52%, recall of 67.41%, and an F1 score of 67.38%.
+- **K-Nearest Neighbors**: Demonstrated an accuracy of 73.28%, precision of 74.34%, recall of 73.28%, and an F1 score of 73.04%, indicating balanced performance in identifying potential attrition cases.
+- **Decision Trees**: Showcased an accuracy of 77.33%, precision of 77.66%, recall of 77.33%, and an F1 score of 77.28%, highlighting robust decision-making capabilities based on feature splits.
+- **Random Forest**: Outperformed other models with an accuracy of 91.89%, precision of 91.91%, recall of 91.89%, and an F1 score of 91.89%, leveraging ensemble-based learning for superior predictive accuracy and generalization.
 
-### [Data Visualization](#data-visualization)
-Interactive charts and visuals were created using Power BI to represent the data effectively. Various types of visuals, such as bar charts, pie charts, and line graphs, were used to display different aspects of the data.
+## Insights and Findings
+The comprehensive analysis yielded valuable insights into various aspects of the organization's workforce dynamics:
+- **Employee Distribution**: Varied significantly across departments, job levels, educational backgrounds, and marital statuses, reflecting diverse demographics within the organization.
+- **Attrition Trends**: Predominantly observed in Research and Development (56%), followed by Sales (39%) and Human Resources (5%), highlighting department-specific attrition challenges.
+- **Salary Analysis**: Revealed differential compensation trends across departments and job levels, influencing employee satisfaction and retention.
+- **Satisfaction Metrics**: Provided nuanced insights into job satisfaction, work-life balance, relationship satisfaction, and environmental satisfaction, crucial for understanding employee well-being and engagement.
 
-### [Insight Extraction](#insight-extraction)
-Insights were extracted from the data through exploratory data analysis (EDA). The findings were compiled into a comprehensive report and used to make informed HR decisions.
 
-## [Insights and Findings](#insights-and-findings)
-The following insights were derived from the data analysis:
 
-### [Employee Distribution by Department](#employee-distribution-by-department)
-- **Total Employees**: 1,470 (Male: 882, Female: 588)
-- **Research and Development**: 379 (Female: 182, Male: 197)
-- **Sales**: 189 (Female: 68, Male: 121)
-- **Human Resources**: 63 (Female: 20, Male: 43)
+## Conclusion
+The HR Vision 360 Dashboard project represents a pivotal step towards leveraging data-driven insights for proactive HR management and strategic decision-making. By integrating Power BI's visualization capabilities with Python's analytical rigor, the project not only provides a comprehensive overview of current workforce dynamics but also equips organizational stakeholders with predictive tools to anticipate and mitigate employee attrition. These insights empower HR managers and executives to implement targeted interventions and policies aimed at enhancing employee engagement, satisfaction, and retention, ultimately fostering a more productive and resilient organizational culture.
 
-### [Employee Distribution by Job Level](#employee-distribution-by-job-level)
-- **Level 1**: 543
-- **Level 2**: 534
-- **Level 3**: 218
-- **Level 4**: 106
-- **Level 5**: 69
-
-### [Employee Distribution by Education](#employee-distribution-by-education)
-- **Life Sciences**: 606
-- **Medical**: 464
-- **Marketing**: 159
-- **Technical Degree**: 132
-- **Others**: 82
-- **Human Resources**: 27
-
-### [Employee Distribution by Marital Status](#employee-distribution-by-marital-status)
-- **Married**: 46%
-- **Single**: 32%
-- **Divorced**: 22%
-
-### [Distance from Office](#distance-from-office)
-- **Very Close**: 64%
-- **Close**: 20%
-- **Far**: 16%
-
-### [Employee Satisfaction Metrics](#employee-satisfaction-metrics)
-- **Job Satisfaction**: 2.73 out of 4
-- **Work-life Balance**: 2.76 out of 4
-- **Relationship Satisfaction**: 2.71 out of 4
-- **Environmental Satisfaction**: 2.72 out of 4
-
-### [Average Salary by Department](#average-salary-by-department)
-- **Sales**: $70,000
-- **Human Resources**: $67,000
-- **Research and Development**: $63,000
-
-### [Average Salary by Job Level](#average-salary-by-job-level)
-- **Level 5**: $190,000
-- **Level 4**: $160,000
-- **Level 3**: $100,000
-- **Level 2**: $60,000
-- **Level 1**: $30,000
-
-### [Employee Distribution by Job Involvement](#employee-distribution-by-job-involvement)
-- **3 jobs**: 868
-- **2 jobs**: 375
-- **4 jobs**: 144
-- **1 job**: 83
-
-### [Attrition by Department](#attrition-by-department)
-- **Human Resources**: 5%
-- **Sales**: 39%
-- **Research and Development**: 56%
-
-### [Pending Actions (Promotions or Retrenchments)](#pending-actions-promotions-or-retrenchments)
-- **Research and Development**: 46 promotions, 74 retrenchments
-- **Sales**: 23 promotions, 36 retrenchments
-- **Human Resources**: 2 promotions, 7 retrenchments
-
-### [Attrition Trends](#attrition-trends)
-- Analyzed by duifferent factors such as Salary, Age, Experience, Gender, Depertments.
-
-## [Conclusion](#conclusion)
-The HR data analysis project using Power BI has provided valuable insights into the organization's workforce. By leveraging Power BI's capabilities, we were able to create an interactive dashboard that highlights key metrics and trends. These insights will aid HR managers and executives in making informed decisions to enhance employee management and organizational growth.
-
-## [Dashboard](#dashboard)
-
-Here is the PDF version of this dashboard. [Here the link](https://github.com/binoy-patra/HR-Vision-360-Dashboard/blob/main/HR%20Analysis%20Dashboard.pdf). 
-
-Here is the Interactive Dashboard : [HR Vision 360 Dashboard](https://project.novypro.com/7WII2E)
-
+## Dashboard
+Explore the interactive HR Vision 360 Dashboard [here](https://project.novypro.com/7WII2E) to delve deeper into the insights and visualizations derived from this project.
 
 ## Contact Information
-- **LinkedIn:** [Binoy Patra](https://www.linkedin.com/in/binoy-patra-b9277b1b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- **GitHub:** [Binoy Patra](https://github.com/binoy-patra)
-- **Email:** binoypatra20@gmail.com
+- **LinkedIn**: [Binoy Patra](https://www.linkedin.com/in/binoy-patra-b9277b1b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- **GitHub**: [Binoy Patra](https://github.com/binoy-patra)
+- **Email**: binoypatra20@gmail.com
